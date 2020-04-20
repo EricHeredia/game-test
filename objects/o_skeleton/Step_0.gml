@@ -55,7 +55,7 @@ switch (state) {
 		set_state_sprite(s_skeleton_attack_one, .7, 0);
 		
 		if animation_hit_frame(0) {
-			create_hitbox(x, y, self, s_skeleton_attack_one_damage, 4, 4, 5, image_xscale);
+			create_hitbox(x, y, self, s_skeleton_attack_one_damage, 3, 4, 5, image_xscale);
 		}
 		
 		if input.attack and animation_hit_frame_range(2, 4) {
@@ -73,7 +73,7 @@ switch (state) {
 		set_state_sprite(s_skeleton_attack_two, .7, 0);
 		
 		if animation_hit_frame(1) {
-			create_hitbox(x, y, self, s_skeleton_attack_two_damage, 4, 4, 5, image_xscale);
+			create_hitbox(x, y, self, s_skeleton_attack_two_damage, 3, 4, 5, image_xscale);
 		}
 		
 		if input.attack and animation_hit_frame_range(2, 4) {
@@ -98,5 +98,10 @@ switch (state) {
 			state = "move"
 		}
 		#endregion
+		break;
+		
+	default:
+		show_debug_message("State " + state + " does not exist");
+		state = "move";
 		break;
 }
