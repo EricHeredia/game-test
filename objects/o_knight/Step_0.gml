@@ -13,7 +13,7 @@ switch (state) {
 		var distance_to_player = point_distance(x, y, o_skeleton.x, o_skeleton.y);
 		
 		if distance_to_player <= attack_range {
-			//state = "attack";
+			state = "attack";
 		} else {
 			move_and_collide(direction_facing * chase_speed, 0);
 		}
