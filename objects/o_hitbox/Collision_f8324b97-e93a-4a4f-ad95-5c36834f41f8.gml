@@ -2,4 +2,5 @@ if creator == noone or creator == other {
 	exit;
 }
 
-instance_destroy(other);
+other.hp -= damage;
+show_debug_message(other.hp);

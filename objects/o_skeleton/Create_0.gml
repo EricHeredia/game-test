@@ -1,3 +1,4 @@
+event_inherited();
 image_speed = .4;
 state = "move";
 run_speed = 4;
