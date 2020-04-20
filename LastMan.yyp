@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "8c80fe20-7609-4d81-95e9-04565862aa52",
+            "Value": {
+                "id": "01b23914-91c0-4041-9e59-19c64a2ef559",
+                "resourcePath": "objects\\o_lifeform\\o_lifeform.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93a54fb3-541b-4c50-995f-a2c04f64ecfe",
             "Value": {
                 "id": "7563d08d-881d-46d7-a84f-0966948a19f4",
