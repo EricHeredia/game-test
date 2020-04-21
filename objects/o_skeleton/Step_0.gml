@@ -100,6 +100,12 @@ switch (state) {
 		#endregion
 		break;
 		
+	case "knockback":
+		#region Knockback State
+		knockback_state(s_skeleton_hitstun, "move");
+		#endregion
+		break;
+		
 	default:
 		show_debug_message("State " + state + " does not exist");
 		state = "move";
