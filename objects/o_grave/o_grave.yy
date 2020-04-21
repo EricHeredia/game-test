@@ -1,10 +1,19 @@
 {
-    "id": "f7140d06-e956-4e43-882e-86147308e4a7",
+    "id": "34743a71-40a0-4a8c-9555-ceb3c495248a",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_wall",
+    "name": "o_grave",
     "eventList": [
-        
+        {
+            "id": "d5d0c5e6-9f8d-4472-9232-c93d76edac8f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "34743a71-40a0-4a8c-9555-ceb3c495248a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -22,23 +31,8 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": [
-        {
-            "id": "d421b7f6-7063-4831-a8c9-bade797f0ccc",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "visible",
-            "varType": 3
-        }
-    ],
+    "properties": null,
     "solid": false,
-    "spriteId": "05ca94bd-280e-45d9-a1e0-4fe052f376e9",
+    "spriteId": "48197735-bd7f-487e-9b09-a5e48b0de7be",
     "visible": true
 }
