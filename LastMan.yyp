@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "117663dd-137e-4c23-a0f1-72b11c7425c5",
+            "Value": {
+                "id": "746e426b-4c99-4017-b51c-bdcf38ffa0ee",
+                "resourcePath": "objects\\o_hud\\o_hud.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1465f58f-815b-4300-af1d-d797101e3402",
             "Value": {
                 "id": "fbc88b77-7297-40f1-abfa-020b92dc1dff",
